@@ -4,14 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const signupForm = document.getElementById("signup-form");
   const messageDiv = document.getElementById("message");
 
-  // Agregar estilos para la lista de participantes
-  const style = document.createElement("style");
-  style.textContent = `
-    .participants-list {
-      margin-left: 2em;
-    }
-  `;
-  document.head.appendChild(style);
 
   // Function to fetch activities from API
   async function fetchActivities() {
