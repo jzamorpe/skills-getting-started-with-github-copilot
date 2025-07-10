@@ -65,9 +65,17 @@ section h3 {
   background-color: #f9f9f9;
 }
 
-.activity-card h4 {
-  margin-bottom: 10px;
+.activity-card h4,
+.activity-card h5 {
+  margin-bottom: 16px;
   color: #0066cc;
+}
+
+.activity-card h4 + ul,
+.activity-card h4 + ol,
+.activity-card h5 + ul,
+.activity-card h5 + ol {
+  margin-top: 8px;
 }
 
 .activity-card p {
@@ -145,4 +153,8 @@ footer {
 
 ul, ol {
   margin-left: 28px;
+}
+
+.participants-section > strong + .participants-list {
+  margin-top: 8px;
 }
