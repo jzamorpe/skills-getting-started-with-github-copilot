@@ -142,3 +142,7 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+ul, ol {
+  margin-left: 28px;
+}
